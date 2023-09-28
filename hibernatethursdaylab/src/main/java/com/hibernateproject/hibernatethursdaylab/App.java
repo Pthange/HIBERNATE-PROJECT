@@ -30,7 +30,7 @@ public class App
         Product p1=new Product();
         p1.setPid(201);
         p1.setPname("SmartWatch");
-        p1.setPrice(254);
+        p1.setPrice(2054);
         p1.setExpirary_Date("20-05-2034");
         
         //passing the object of PRODUCT in CUSTOMER
