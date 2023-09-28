@@ -3,7 +3,7 @@ package com.hibernateproject.hibernatethursdaylab;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity(name="Customer_Detail") //naming the entity class
@@ -16,7 +16,8 @@ public class Customer
 	private String city;
 	private String contact_number;
 	
-	@OneToOne
+	//adding many to one connection
+	@ManyToOne
 	@JoinColumn(name="product_id")
 	private Product proj;  //foregin key
 	
