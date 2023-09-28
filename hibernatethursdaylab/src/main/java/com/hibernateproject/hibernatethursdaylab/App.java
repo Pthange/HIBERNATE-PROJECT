@@ -29,7 +29,7 @@ public class App
         //creating the object of PRODUCT
         Product p1=new Product();
         p1.setPid(201);
-        p1.setPname("Facewash");
+        p1.setPname("SmartWatch");
         p1.setPrice(254);
         p1.setExpirary_Date("20-05-2034");
         
